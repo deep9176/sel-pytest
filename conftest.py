@@ -8,6 +8,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
 
+#adding simple line
+
 def pytest_configure(config):
     log_level = config.getoption("--loglevel").upper()
 
