@@ -1,0 +1,4 @@
+__pycache__/
+sel-pytest-venv/
+.pytest_cache
+Logs/
